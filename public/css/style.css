@@ -1,0 +1,30 @@
+/* Basic styles for the navbar */
+nav {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  ul.navbar li {
+    display: inline;
+  }
+  
+  ul.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #555;
+    border-radius: 4px;
+  }
+  
+  ul.navbar li a:hover {
+    background-color: #777;
+  }
+  
