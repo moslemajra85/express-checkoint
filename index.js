@@ -1,7 +1,8 @@
 const express = require('express');
-
+const isAvailable = require('./middlewares/accessApp');
 const app = express();
 
+app.use(isAvailable);
 app.use(express.static('public'));
 
 app.set('view engine', 'pug');
